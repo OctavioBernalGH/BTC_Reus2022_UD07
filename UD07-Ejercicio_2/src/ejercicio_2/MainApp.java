@@ -53,7 +53,8 @@ public class MainApp {
 		articulo.add(precioConIvaLechuga);
 		
 		double precioTotal = precioConIvaPera + precioConIvaManzana + precioConIvaLechuga;
-		double totalPagado=0, pagar = 0;
+		double totalPagado=0;
+		double pagar = 0;
 		double resto = 0;
 		
 		System.out.print("Introduce " + precioTotal + " euros por favor: ");
